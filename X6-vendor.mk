@@ -11,6 +11,6 @@ PRODUCT_COPY_FILES := \
     packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml
 
 # Pick up overlay for features that depend on non-open-source files
-DEVICE_PACKAGE_OVERLAYS := vendor/leagoo/z5/overlay
+DEVICE_PACKAGE_OVERLAYS := vendor/Doogee/X6/overlay
 
-$(call inherit-product, vendor/leagoo/z5/z5-vendor-blobs.mk)
+$(call inherit-product, vendor/Doogee/X6/X6-vendor-blobs.mk)
